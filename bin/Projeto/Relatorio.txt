@@ -1,0 +1,61 @@
+Capa  (os screenshots sao importantes para o prof ver que dava no nosso caso haja merda)
+
+Teste Modulos
+	Contador:
+		Correr programa do TesteContador.java, a probabilidade nao e pedida. Apenas esta definida nas variaveis
+		Return do num de contagens que fez e percentagem.
+
+	Por screenshot do output esperado
+
+	BloomTeste:
+		Correr testebloom.java , o programa inicializa preenche o filtro com as palavras do texto localizado em TextFiles/pg21209.txt
+		Depois vai nos dar a quantidade de vezes que cada palavra aparece.
+
+	Por screenshot do output esperado
+
+	SimilaresTeste:
+		Correr codigo dos SimilaresTest.java, este programa le para o mapa o text file "u.data" que contem os filmes (dado na aula pratica), depois calcula matriz semelhanças (1- distancia) e dps verifica users parecidos conforme o threshold definido.
+		Da-nos par- User1:User2:Semelhança
+
+	Por screenshot do output esperado
+
+
+	Modulo Final
+		System.out.println("");
+            System.out.println("Choose from these choices");
+            System.out.println("-------------------------");
+            System.out.println("1 - Criar BloomFilter com vencedores do Mega Milhoes");
+            System.out.println("2 - Verificar nome de vencedores");
+            System.out.println("3 - Ver nome mais sortudo");
+            System.out.println("4 - Definir número de sorteios ");
+            System.out.println("5 - Semelhança da lotaria");
+            System.out.println("6 - Sair do programa"); 
+       	(Pode ser screenshot disto)
+
+       	Neste modulo apos executarmos o script ModuloFinal.java aparece este menu e podemos fazer as opçoes listadas acima, para acedermos as opçoes 2 e 3 temos primeiro que usar a 1, para começar o filtro. Para aceder a opçao 5 temos que primeiro executar a 4 pois e essa que define o numero de elementos que vamos ler para a semelhança do 5.
+
+       	(Podes por screenshot da resposta de cada opçao)
+       	Opçao 1:
+    		Cria bloomfilter com nomes dos vencedores da lotaria
+
+    	Opçao 2:
+    		Podemos verificar se algum nome ja venceu a lotaria
+
+    	Opçao 3:
+    		Vemos o nome mais comum de entre os vencedores
+
+    	Opçao 4:
+    		Usamos contador estocastico, para um numero aproximado de elementos
+
+    	Opçao 5:
+    		Mostra as datas de quando as lotarias foram mais semelhantes
+
+    	Opçao 6:
+    		Podemos acabar o programa
+
+Conclusao
+	Inventa aqui umas cenas que aprendemos sobre hashfuncs minhash e os resultados obtidos, tipo e bastante raro sair mesma combinaçao
+
+
+
+
